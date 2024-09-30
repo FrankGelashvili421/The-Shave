@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  
+  }
+  body{
+      animation: FadeIn 2s;
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+  @keyframes FadeIn {
+      0%{
+        opacity: 0;
+        background-color: #ffff;
+      }
+      100%{
+        opacity: 1;
+      }
+  }
